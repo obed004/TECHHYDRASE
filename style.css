@@ -2,5 +2,101 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+
+display: inline-block;
+justify-content: left;
+
+padding: 12px;
+text-align: center;
+border: 5px solid orangered;
+overflow: hidden;
+margin: 5px 5px 20px;
+
+
+}
+ul li{
+    list-style: none;
+    margin-left: 5px;
+    margin-top: 0px;
+    font-size: 20px;
+    float: left;
     
+}
+ul li a{
+    text-align: center;
+    color: rgb(236, 236, 245);
+    text-decoration: none;
+    font-weight: bold; 
+    transition: 0.4s ease-in-out;
+    border: 100px;
+    padding: 10x;
+}
+body{
+    width: 100%;
+    background-image:url(https://i.cbc.ca/1.5962327.1616612629!/fileImage/httpImage/black-hole-image-gif.gif);
+    background-repeat:repeat-x;
+    background-size: cover;
+    background-position: center;
+    height: 50%;
+    border: 1000px;
+}
+
+li a:hover{
+    background-color: blue;
+   
+}
+form{
+    background:transparent;
+    float: right;
+    border: 5px  solid orangered;
+    width: 27%;
+    height:140px;
+    padding: 3px;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    margin: 5px;
+    margin-bottom: 5px;
+    color: aliceblue;
+    font-weight: bolder;
+}
+input[type=text]{
+    border: 1px solid brown;
+   
+}
+input[type=password]{
+    border: 1px solid brown;
+    border-radius: 5px;
+
+}
+h2{
+    color: white;
+    margin:10px;
+    position: relative;
+    padding: 10px;
+    
+}
+img{float:left ;
+    width: 20%;
+    padding: 20px;
+    inset-block: ;
+    border: 3px double gold;
+    border: radius 4px; 
+    margin: 30px;
+    border-radius: 12px;
+}
+
+figcaption{
+    captiom:none;
+}
+figure{
+    align-items: ;
+}
+a signup{
+    background-color: orangered;
+    text-align: center;
+    margin: 20px;
 }
